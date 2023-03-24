@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Creative Login Page</title>
+</head>
+
+<body onload="loadBody()">
+    <div class="card">
+        <h1>Login Page</h1>
+        <div class="first-row">
+            <div class="row">
+                <div><small>Username</small></div>
+                <input id="user" type="text">
+            </div>
+        </div>
+        <div class="first-row">
+            <div class="row">
+                <div><small>Password</small></div>
+                <input onkeypress="userInput()" id="pass" type="password">
+            </div>
+        </div>
+        <div class="btn">
+            <button onclick="login()" id="btn" onmouseenter="mouseEnter()">Login</button>
+        </div>
+    </div>
+    <div id="card2" class="card">
+        <h2>Nice try !</h2>
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>
