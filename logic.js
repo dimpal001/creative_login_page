@@ -12,7 +12,7 @@ function userInput() {
   let txt = document.querySelector("#pass").value;
   let length = txt.length + 1;
   if (length >= 8) {
-    document.querySelector("#pass").style.outline = "2px solid green";
+    document.querySelector("#pass").style.outline = "2px solid rgb(9, 161, 9)";
   } else if (length < 8) {
     document.querySelector("#pass").style.outline = "2px solid red";
     document.querySelector("#pass").style.borderRadius = "3px";
