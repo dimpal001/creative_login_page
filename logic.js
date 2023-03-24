@@ -57,7 +57,7 @@ function login(){
   else{
     
     setTimeout(function(){
-      document.querySelector("#card2").style.height = "200px"
+      document.querySelector("#card2").style.height = "220px"
       document.querySelector("#card2 h2").style.opacity = "1"
     },0)
     document.querySelector("#card2").style.display = "flex"
